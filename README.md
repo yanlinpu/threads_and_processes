@@ -27,6 +27,7 @@ problem：
 - 本线程报错，其他线程正常输出（thread_error.rb）
 - 可以捕获异常（begin rescue end） (thread_error_2.rb)
 - 设置abort_on_exception为true，则一个未处理异常会杀死所有运行中的线程
+
 线程[stop run join](https://ruby-china.org/topics/25828)（在run之前让主线程sleep 0.2 确保所有的子线程已全部stop）
 
 
